@@ -19,10 +19,51 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 en:
+  layouts:
+    header:
+      title: "Let's Go Now"
+      login: "Log in"
+      help: "Help"
+      home: "Home"
+    footer:
+      about: "About"
+      contact: "Contact"
+      home: "Home"
   pages:
     home:
       home: "Home"
+      letsgotogether: "Let's go together"
+      title: "We travel the world in search of stories. Come along for the ride."
+      signup: "Sign Up Now"
+      nature: "Nature"
+      photography: "Photography"
+      relaxation: "Relaxation"
+      vacation: "Vacation"
+      travel: "Travel"
+      adventure: "Adventure"
+      featuredposts: "Featured Posts"
+      theroadahead: "The Road Ahead"
+      descriptiontheroad: "The road ahead might be paved - it might not be."
+      author: "Mr Hung"
+      date: "September 25, 2015"
+      fromtopdown: "From Top Down"
+      descriptionfromtopdown: "Once a year, go someplace you’ve never been before."
+      mostrecent: "Most Recent"
+      stillstandingtall: "Still Standing Tall"
+      previewstillstandingtall: "Life begins at the end of your comfort zone."
+      sunnysideup: "Sunny Side Up"
+      previewsunnysideup: "No place is ever as bad as they tell you it’s going to be."
+      waterfalls: "Water Falls"
+      previewwaterfalls: "We travel not to escape life, but for life not to escape us."
+      throughthemist: "Through the Mist"
+      previewthroughthemist: "Travel makes you see what a tiny place you occupy in the world."
+      awakenearly: "Awaken Early"
+      previewawakenearly: "Not all those who wander are lost."
+      tryitalways: "Try it Always"
+      previewtryitalways: "The world is a book, and those who do not travel read only one page."
     help:
       help: "Help"
     about:
       about: "About"
+    contact:
+      contact: "Contact"

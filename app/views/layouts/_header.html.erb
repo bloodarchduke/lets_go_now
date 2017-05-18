@@ -1,0 +1,12 @@
+<header class="navbar navbar-fixed-top navbar-inverse" data-animation="over-right" data-collapse="tiny" data-duration="400" data-ix="navbar" style="opacity: 1; transition: opacity 600ms;">
+  <div class="container">
+  <%= link_to t(".title"), "#", id: "logo" %>
+       <nav>
+      <ul class="nav navbar-nav navbar-right">
+       <li><%= link_to t(".home"), root_url %></li>
+        <li><%= link_to t(".help"), page: "help" %></li>
+        <li><%= link_to t(".login"), "#" %></li>
+      </ul>
+    </nav>
+  </div>
+</header>

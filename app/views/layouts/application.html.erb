@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>LetsGoNow</title>
+    <title>let's go now</title>
     <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    "application", media: "all",
+                                              "data-turbolinks-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
   </head>
-
-  <body>
-    <%= yield %>
+  <html data-wf-domain="template-escape.webflow.io" data-wf-page="560425adca8e085154729774" data-wf-site="560425adca8e085154729773" class="w-mod-js w-mod-no-touch w-mod-video w-mod-no-ios wf-lora-n4-active wf-lora-i4-active wf-lora-n7-active wf-oxygen-n3-active wf-oxygen-n4-active wf-oxygen-n7-active wf-active">
+   <body>
+   <div class="container">
+   </div>
+    <div class="container">
+   </div>
+    <div class="container">
+   </div>
+      <%= render "layouts/header" %>
+      <div class="container">
+      <%= yield %>
+      <%= render "layouts/footer" %>
+    </div>
   </body>
 </html>

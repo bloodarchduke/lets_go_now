@@ -1,5 +1,190 @@
-<% provide:title, t(".Home")%>
-<h1><%= t ".home" %></h1>
-<p>
-  ......
-</p>
+<% provide :title, t(".home") %>
+<div class="center jumbotron">
+  <div class="hero-section">
+    <div class="hero-content w-container">
+       <div class="hero-heading" data-ix="hero-text" style="opacity: 1; transform: translateX(0px) translateY(0px) translateZ(0px); transition: opacity 600ms, transform 600ms;"><%= t ".letsgotogether" %></div>
+       <div class="hero-subheading" data-ix="hero-text-2" style="opacity: 1; transform: translateX(0px) translateY(0px) translateZ(0px); transition: opacity 600ms, transform 600ms;"><%= t ".title" %></div>
+       <a class="button w-button" data-ix="hero-button" link_to "Sign up now!", "#", style="transition: background-color 0.2s ease 0s, color 0.2s ease 0s, opacity 600ms, transform 600ms; opacity: 1; transform: scaleX(1) scaleY(1) scaleZ(1);"><%= t ".signup" %></a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="category-section">
+            <div class="w-container">
+               <div class="w-dyn-list">
+                  <div class="w-clearfix w-dyn-items w-row">
+                     <div class="category-wrapper w-col w-col-2 w-dyn-item"><a class="category-link" href="https://www.railstutorial.org/"><%= t ".nature" %></a></div>
+                     <div class="category-wrapper w-col w-col-2 w-dyn-item"><a class="category-link" href="https://www.railstutorial.org/"><%= t ".photography" %></a></div>
+                     <div class="category-wrapper w-col w-col-2 w-dyn-item"><a class="category-link" href="hhttps://www.railstutorial.org/"><%= t ".relaxation" %></a></div>
+                     <div class="category-wrapper w-col w-col-2 w-dyn-item"><a class="category-link" href="https://www.railstutorial.org/"><%= t ".vacation" %></a></div>
+                     <div class="category-wrapper w-col w-col-2 w-dyn-item"><a class="category-link" href="https://www.railstutorial.org/"><%= t ".travel" %></a></div>
+                     <div class="category-wrapper w-col w-col-2 w-dyn-item"><a class="category-link" href="https://www.railstutorial.org/"><%= t ".adventure" %></a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="bottom-padding main-section" id="posts">
+            <div class="w-container" id="Latest-post">
+               <div class="section-heading">
+                  <h2 class="section-title"><%= t ".featuredposts" %></h2>
+                  <div class="med-divider"></div>
+               </div>
+               <div class="w-dyn-list">
+                  <div class="w-clearfix w-dyn-items w-row">
+                     <div class="featuredthumbnail w-col w-col-6 w-dyn-item">
+                        <a class="featured-wrapper w-inline-block" data-ix="featured-wrapper" href="https://www.railstutorial.org/" style="transition: transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s;">
+                           <div>
+                              <div class="category-tag-2" style="background-color: #a872b7;"><%= t ".photography" %></div>
+                              <img alt="Rails logo" src="/assets/1.jpg" />
+                           </div>
+                           <div class="featured-text">
+                              <div class="featured-title"><%= t ".theroadahead" %></div>
+                              <div class="featured-description"><%= t ".descriptiontheroad" %></div>
+                              <div class="featured-details">
+                                 <div class="w-clearfix">
+                                    <img class="author-img" src="/assets/2.jpg">
+                                    <div class="author-title lite"><%= t ".author" %></div>
+                                    <div class="lite thumbnail-date"><%= t ".date" %></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="featuredthumbnail w-col w-col-6 w-dyn-item">
+                        <a class="featured-wrapper w-inline-block" data-ix="featured-wrapper" href="https://www.railstutorial.org/" style="transition: transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s;">
+                           <div>
+                              <div class="category-tag-2" style="background-color: #dd783f;"><%= t ".travel" %></div>
+                              <img alt="Rails logo" src="/assets/3.jpg"/>
+                           </div>
+                           <div class="featured-text">
+                              <div class="featured-title"><%= t ".fromtopdown" %></div>
+                              <div class="featured-description"><%= t ".descriptionfromtopdown" %></div>
+                              <div class="featured-details">
+                                 <div class="w-clearfix">
+                                    <img class="author-img" src="/assets/2.jpg">
+                                    <div class="author-title lite"><%= t ".author" %></div>
+                                    <div class="lite thumbnail-date"><%= t ".date" %></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="w-container">
+               <div class="section-heading">
+                  <h2 class="section-title"><%= t ".mostrecent" %></h2>
+                  <div class="med-divider"></div>
+               </div>
+               <div class="w-dyn-list">
+                  <div class="w-clearfix w-dyn-items w-row">
+                     <div class="blog-thumbnail w-col w-col-4 w-dyn-item">
+                        <a class="thumbnail-wrapper w-inline-block" data-ix="blog-thumbnail" href="https://www.railstutorial.org/" style="transition: box-shadow 0.2s ease 0s, transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s;">
+                           <div class="image-wrapper">
+                              <img alt="Rails logo" src="/assets/4.jpg"/>
+                              <div class="category-tag" style="background-color: #e6c728;"><%= t ".nature" %></div>
+                           </div>
+                           <div class="thumbnail-text">
+                              <div class="blog-title"><%= t ".stillstandingtall" %></div>
+                              <div class="preview-text"><%= t ".previewstillstandingtall" %></div>
+                           </div>
+                           <div class="thumb-details w-clearfix">
+                              <img class="author-img" src="/assets/2.jpg">
+                              <div class="author-title"><%= t ".author" %></div>
+                              <div class="thumbnail-date"><%= t ".date" %></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="blog-thumbnail w-col w-col-4 w-dyn-item">
+                        <a class="thumbnail-wrapper w-inline-block" data-ix="blog-thumbnail" href="https://www.railstutorial.org/" style="transition: box-shadow 0.2s ease 0s, transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s;">
+                           <div class="image-wrapper">
+                              <img alt="Rails logo" src="/assets/8.jpg"/>
+                              <div class="category-tag" style="background-color: #a872b7;"><%= t ".photography" %></div>
+                           </div>
+                           <div class="thumbnail-text">
+                              <div class="blog-title"><%= t ".sunnysideup" %></div>
+                              <div class="preview-text"><%= t ".previewsunnysideup" %></div>
+                           </div>
+                           <div class="thumb-details w-clearfix">
+                              <img class="author-img" src="/assets/2.jpg">
+                              <div class="author-title"><%= t ".author" %></div>
+                              <div class="thumbnail-date"><%= t ".date" %></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="blog-thumbnail w-col w-col-4 w-dyn-item">
+                        <a class="thumbnail-wrapper w-inline-block" data-ix="blog-thumbnail" href="http://template-escape.webflow.io/blog/water-falls" style="transition: box-shadow 0.2s ease 0s, transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s;">
+                           <div class="image-wrapper">
+                              <img alt="Rails logo" src="/assets/5.jpg"/>
+                              <div class="category-tag" style="background-color: #4aaec2;"><%= t ".relaxation" %></div>
+                           </div>
+                           <div class="thumbnail-text">
+                              <div class="blog-title"><%= t ".waterfalls" %></div>
+                              <div class="preview-text"><%= t ".previewwaterfalls" %></div>
+                           </div>
+                           <div class="thumb-details w-clearfix">
+                              <img class="author-img" src="/assets/2.jpg">
+                              <div class="author-title"><%= t ".author" %></div>
+                              <div class="thumbnail-date"><%= t ".date" %></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="blog-thumbnail w-col w-col-4 w-dyn-item">
+                        <a class="thumbnail-wrapper w-inline-block" data-ix="blog-thumbnail" href="https://www.railstutorial.org/" style="transition: box-shadow 0.2s ease 0s, transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s;">
+                           <div class="image-wrapper">
+                              <img alt="Rails logo" src="/assets/9.jpg"/>
+                              <div class="category-tag" style="background-color: #d25f7c;"><%= t ".vacation" %></div>
+                           </div>
+                           <div class="thumbnail-text">
+                              <div class="blog-title"><%= t ".throughthemist" %></div>
+                              <div class="preview-text"><%= t ".previewthroughthemist" %></div>
+                           </div>
+                           <div class="thumb-details w-clearfix">
+                              <img class="author-img" src="/assets/2.jpg">
+                              <div class="author-title"><%= t ".author" %></div>
+                              <div class="thumbnail-date"><%= t ".date" %></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="blog-thumbnail w-col w-col-4 w-dyn-item">
+                        <a class="thumbnail-wrapper w-inline-block" data-ix="blog-thumbnail" href="https://www.railstutorial.org/" style="transition: box-shadow 0.2s ease 0s, transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s;">
+                           <div class="image-wrapper">
+                              <img alt="Rails logo" src="/assets/6.jpg"/>
+                              <div class="category-tag" style="background-color: #d25f7c;"><%= t ".vacation" %></div>
+                           </div>
+                           <div class="thumbnail-text">
+                              <div class="blog-title"><%= t ".awakenearly" %></div>
+                              <div class="preview-text"><%= t ".previewawakenearl" %>y</div>
+                           </div>
+                           <div class="thumb-details w-clearfix">
+                              <img class="author-img" src="/assets/2.jpg">
+                              <div class="author-title"><%= t ".author" %></div>
+                              <div class="thumbnail-date"><%= t ".date" %></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="blog-thumbnail w-col w-col-4 w-dyn-item">
+                        <a class="thumbnail-wrapper w-inline-block" data-ix="blog-thumbnail" href="https://www.railstutorial.org/" style="transition: box-shadow 0.2s ease 0s, transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s;">
+                           <div class="image-wrapper">
+                              <img alt="Rails logo" src="/assets/7.jpg"/>
+                              <div class="category-tag" style="background-color: #49ae5c;"><%= t ".travel" %></div>
+                           </div>
+                           <div class="thumbnail-text">
+                              <div class="blog-title"><%= t ".tryitalways" %></div>
+                              <div class="preview-text"><%= t ".previewtryitalways" %></div>
+                           </div>
+                           <div class="thumb-details w-clearfix">
+                              <img class="author-img" <img class="author-img" src="/assets/2.jpg">
+                              <div class="author-title"><%= t ".author" %></div>
+                              <div class="thumbnail-date"><%= t ".date" %></div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+</div>
